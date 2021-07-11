@@ -88,20 +88,12 @@
         </li>
       </ul>
       <!-- Burger -->
-      <div
-        class="
-          burger
-          flex flex-col
-          justify-center
-          items-center
-          w-8
-          md:hidden
-          relative
-        "
-      >
-        <div class="line mb-2 h-0.5 w-full bg-blue-500"></div>
-        <div class="line mb-2 h-0.5 w-full bg-blue-500"></div>
-        <div class="line h-0.5 w-full bg-blue-500"></div>
+      <div class="big-burger relative w-8 md:hidden">
+        <div class="burger flex flex-col justify-center items-center">
+          <div class="line mb-2 h-0.5 w-full bg-blue-500"></div>
+          <div class="line mb-2 h-0.5 w-full bg-blue-500"></div>
+          <div class="line h-0.5 w-full bg-blue-500"></div>
+        </div>
         <!-- Dropdown Nav -->
         <div
           class="
@@ -470,6 +462,7 @@
       const dropDownNav = document.querySelector('.dropdown_nav');
       burger.addEventListener('click', () => {
         dropDownNav.classList.toggle('open');
+        burger.classList.toggle('iksli');
       });
     </script>
   </body>

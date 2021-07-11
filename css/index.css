@@ -22,8 +22,27 @@
   cursor: pointer;
 }
 
-.burger .dropdown_nav {
-  width: 70vw;
+.iksli {
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.iksli .line:nth-child(1) {
+  -webkit-transform: translateY(10px) rotate(45deg);
+          transform: translateY(10px) rotate(45deg);
+}
+
+.iksli .line:nth-child(2) {
+  opacity: 0;
+}
+
+.iksli .line:nth-child(3) {
+  -webkit-transform: translateY(-10px) rotate(-45deg);
+          transform: translateY(-10px) rotate(-45deg);
+}
+
+.big-burger .dropdown_nav {
+  width: 60vw;
 }
 
 .dropdown_nav {
