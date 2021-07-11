@@ -28,8 +28,9 @@
   </head>
   <!-- Body -->
   <body>
+    <!-- Main -->
     <main>
-      <div class="swiper-container h-screen mySwiper">
+      <div class="swiper-container min-h-screen mySwiper">
         <!-- Header -->
         <header
           class="
@@ -44,9 +45,12 @@
             top-0
             left-0
             w-full
+            h-24
+            bg-white
             z-50
           "
         >
+          <!-- Logo -->
           <a href="./index.html" class="logo">
             <img
               src="https://www.vippng.com/png/full/440-4400096_logo-for-random-dude-01-electric-blue.png"
@@ -54,6 +58,7 @@
               class="h-10 sm:h-14"
             />
           </a>
+          <!-- Nav Links -->
           <ul class="nav_links hidden md:flex justify-between items-center">
             <li class="pr-5 text-lg">
               <a href="#">Biz haqimizda</a>
@@ -85,6 +90,7 @@
               </div>
             </li>
           </ul>
+          <!-- Burger -->
           <div
             class="
               burger
@@ -93,11 +99,42 @@
               items-center
               w-10
               md:hidden
+              relative
             "
           >
             <div class="line mb-2 h-1 w-full bg-blue-500"></div>
             <div class="line mb-2 h-1 w-full bg-blue-500"></div>
             <div class="line h-1 w-full bg-blue-500"></div>
+            <!-- Dropdown Nav -->
+            <div
+              class="
+                dropdown_nav
+                block
+                absolute
+                right-0
+                top-12
+                bg-white
+                shadow-md
+                p-5
+                rounded-md
+              "
+            >
+              <ul>
+                <li><a href="#">Biz Haqimizda</a></li>
+                <li><a href="#">Dasturlar</a></li>
+                <li><a href="#">Blog</a></li>
+                <li>
+                  <a href="#">Ariza<i class="fas fa-caret-down pl-2"></i></a>
+                  <!-- Dropdown In -->
+                  <div class="dropdown_in pl-5">
+                    <ul>
+                      <li><a href="#">To'liq Ma'lumot</a></li>
+                      <li><a href="#">Ariza</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </header>
         <!-- Content -->
@@ -340,6 +377,13 @@
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
+      });
+    </script>
+    <script>
+      const burger = document.querySelector('.burger');
+      const dropDownNav = document.querySelector('.dropdown_nav');
+      burger.addEventListener('click', () => {
+        dropDownNav.classList.toggle('open');
       });
     </script>
   </body>
