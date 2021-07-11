@@ -29,10 +29,6 @@ $primary: #218dd6;
   width: calc(50vw);
 }
 
-.dropdown_in {
-  display: none;
-}
-
 .dropdown_nav {
   opacity: 0;
   transform: scaleY(0);
@@ -40,11 +36,6 @@ $primary: #218dd6;
   transition: all ease 0.5s;
   a:hover {
     color: $primary;
-  }
-  ul li:nth-child(4):hover {
-    .dropdown_in {
-      display: block;
-    }
   }
 }
 
@@ -56,6 +47,7 @@ $primary: #218dd6;
 // Main + Swipper
 
 .swiper-container {
+  height: calc(100vh - 4rem);
   .sm-ic::after {
     font-size: 1rem !important;
   }

@@ -26,10 +26,6 @@
   width: calc(50vw);
 }
 
-.dropdown_in {
-  display: none;
-}
-
 .dropdown_nav {
   opacity: 0;
   -webkit-transform: scaleY(0);
@@ -44,14 +40,14 @@
   color: #218dd6;
 }
 
-.dropdown_nav ul li:nth-child(4):hover .dropdown_in {
-  display: block;
-}
-
 .dropdown_nav.open {
   opacity: 1;
   -webkit-transform: scaleY(1);
           transform: scaleY(1);
+}
+
+.swiper-container {
+  height: calc(100vh - 4rem);
 }
 
 .swiper-container .sm-ic::after {
