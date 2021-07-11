@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chet Elda O`qish - Universitetlar, Ma`lumotlar, Narxlar</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Swipper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- TailwindCSS -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <!-- Body -->
+  <body>
+    <main>
+      <div class="swiper-container h-screen mySwiper">
+        <!-- Header -->
+        <header
+          class="
+            flex
+            justify-between
+            items-center
+            py-5
+            px-5
+            sm:px-10
+            md:px-20
+            fixed
+            top-0
+            left-0
+            w-full
+            z-50
+          "
+        >
+          <a href="./index.html" class="logo">
+            <img
+              src="https://www.vippng.com/png/full/440-4400096_logo-for-random-dude-01-electric-blue.png"
+              alt="logo"
+              class="h-10 sm:h-14"
+            />
+          </a>
+          <ul class="nav_links hidden md:flex justify-between items-center">
+            <li class="pr-5 text-lg">
+              <a href="#">Biz haqimizda</a>
+            </li>
+            <li class="pr-5 text-lg"><a href="#">Dasturlar</a></li>
+            <li class="pr-5 text-lg"><a href="#">Blog</a></li>
+            <li class="openner text-lg relative">
+              <a href="#">Ariza<i class="fas fa-caret-down pl-2"></i></a>
+              <div
+                class="
+                  dropdown_menu
+                  block
+                  absolute
+                  right-0
+                  top-full
+                  bg-white
+                  shadow-md
+                  p-5
+                  mt-2
+                  rounded-md
+                  w-48
+                  lg:w-60
+                "
+              >
+                <ul>
+                  <li class="mb-1"><a href="#">To'liq Ma'lumot</a></li>
+                  <li class="mb-1"><a href="#">Ariza</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div
+            class="
+              burger
+              flex flex-col
+              justify-center
+              items-center
+              w-10
+              md:hidden
+            "
+          >
+            <div class="line mb-2 h-1 w-full bg-blue-500"></div>
+            <div class="line mb-2 h-1 w-full bg-blue-500"></div>
+            <div class="line h-1 w-full bg-blue-500"></div>
+          </div>
+        </header>
+        <!-- Content -->
+        <div class="swiper-wrapper">
+          <!-- Slider 1 -->
+          <div class="swiper-slide slide1 relative">
+            <video
+              id="vid"
+              class="absolute top-0 left-0 w-full h-full object-cover"
+              loop
+              muted
+              autoplay
+            >
+              <source
+                id="mp4"
+                src="./videos/main-video1.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div class="bg absolute top-0 left-0 h-full w-full"></div>
+            <div class="content px-5 sm:px-10 md:px-20">
+              <h1
+                class="
+                  text-center text-3xl
+                  sm:text-4xl
+                  lg:text-6xl
+                  text-white
+                  font-bold
+                  leading-tight
+                  mx-2
+                "
+              >
+                Chet Elda O'qish <br />
+                Edumap Bilan OSON!
+              </h1>
+              <p
+                class="
+                  text-center text-lg
+                  sm:text-sm
+                  text-white
+                  leading-tight
+                  w-11/12
+                  sm:w-8/12
+                  mx-2
+                  mt-5
+                "
+              >
+                2000 dan ortiq o'quv dasturlarni dunyo bo'yicha sizga taklif
+                etamiz! Siz uchun bakalavriat, magistratura, ilmiy daraja,
+                diplom va sertifikat kurslari, tayyorlov va til kurslari, ta'til
+                va sport oromgohlar! Shoshiling!
+              </p>
+              <a href="#"
+                ><button
+                  class="
+                    px-6
+                    lg:px-8
+                    py-4
+                    lg:py-6
+                    text-sm
+                    lg:text-xl
+                    text-white
+                    bg-gradient-to-r
+                    from-blue-800
+                    to-blue-400
+                    rounded-2xl
+                    mt-10
+                    md:mt-20
+                    font-bold
+                    uppercase
+                    animate-bounce
+                  "
+                >
+                  O'qishni Istayman!
+                </button></a
+              >
+            </div>
+          </div>
+          <!-- Slider 2 -->
+          <div class="swiper-slide slide2">
+            <div class="content px-5 sm:px-10 md:px-20">
+              <h1
+                class="
+                  text-center text-3xl
+                  sm:text-4xl
+                  lg:text-6xl
+                  text-white
+                  font-bold
+                  leading-tight
+                  mx-2
+                "
+              >
+                Malayziyada O'qishga <br />
+                100 % gacha Chegirmalar
+              </h1>
+              <p
+                class="
+                  text-center text-lg
+                  sm:text-sm
+                  text-white
+                  leading-tight
+                  w-11/12
+                  sm:w-8/12
+                  mx-2
+                  mt-5
+                "
+              >
+                IETLS Sertifikatisiz hujjat topshirish, O'qishni Amerika, Kanada
+                yoki Avstraliyaga ko'chirish, 2ta Diplomga ega bo'lish
+              </p>
+              <a href="#">
+                <button
+                  class="
+                    px-6
+                    lg:px-8
+                    py-4
+                    lg:py-6
+                    text-sm
+                    lg:text-xl
+                    text-white
+                    bg-gradient-to-r
+                    from-red-800
+                    to-red-400
+                    rounded-2xl
+                    mt-10
+                    md:mt-20
+                    font-bold
+                    uppercase
+                    animate-bounce
+                  "
+                >
+                  Universitetni tanlang
+                </button>
+              </a>
+            </div>
+          </div>
+          <!-- Slider 3 -->
+          <div class="swiper-slide slide3">
+            <div class="content px-5 sm:px-10 md:px-20">
+              <h1
+                class="
+                  text-center text-3xl
+                  sm:text-4xl
+                  lg:text-5xl
+                  text-white
+                  font-bold
+                  leading-tight
+                  mx-2
+                "
+              >
+                Koreya Universitetlariga Bahorgi Semestrga <br />
+                Qabul Ochildi!
+              </h1>
+              <p
+                class="
+                  text-center text-lg
+                  sm:text-sm
+                  text-white
+                  leading-tight
+                  w-11/12
+                  sm:w-8/12
+                  mx-2
+                  mt-5
+                "
+              >
+                Koreyaning eng nufuzli milliy va xususiy o'quv oliygohlariga
+                o'qishga muyassar bo'ling! Scholarshiplar, grantlar, chegirmalar
+                olish imkoniyatini qo'ldan boy bermang!
+              </p>
+              <a href="#">
+                <button
+                  class="
+                    px-6
+                    lg:px-8
+                    py-4
+                    lg:py-6
+                    text-sm
+                    lg:text-xl
+                    text-white
+                    bg-gradient-to-r
+                    from-yellow-700
+                    to-yellow-400
+                    rounded-2xl
+                    mt-10
+                    md:mt-20
+                    font-bold
+                    uppercase
+                    animate-bounce
+                  "
+                >
+                  Koreyada o'qishni <br class="sm:hidden" />
+                  hohlayman
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            swiper-button-next
+            bg-white
+            hidden
+            sm:flex
+            p-6
+            sm:p-8
+            rounded-2xl
+            sm-ic
+            right-10
+          "
+        ></div>
+        <div
+          class="
+            swiper-button-prev
+            bg-white
+            hidden
+            sm:flex
+            p-6
+            sm:p-8
+            rounded-2xl
+            left-10
+            sm-ic
+          "
+        ></div>
+      </div>
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        speed: 1000,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+  </body>
+</html>

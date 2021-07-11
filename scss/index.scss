@@ -1,0 +1,68 @@
+$primary: #218dd6;
+
+// Header
+
+.nav_links li a:hover {
+  color: $primary;
+}
+
+.openner {
+  .dropdown_menu {
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all ease 0.5s;
+  }
+}
+.openner:hover {
+  .dropdown_menu {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+// Main + Swipper
+
+.swiper-container {
+  .sm-ic::after {
+    font-size: 1rem !important;
+  }
+  @media (min-width: 640px) {
+    .sm-ic::after {
+      font-size: 1.5rem !important;
+    }
+  }
+  .swiper-wrapper {
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+      video {
+        z-index: -2;
+      }
+      .bg {
+        background: #7796fa1a;
+        z-index: -1;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        button {
+          span {
+            z-index: -1;
+          }
+        }
+      }
+    }
+    .slide2 {
+      background: url(../img/main-img1.jpg) center (center/cover) no-repeat;
+    }
+    .slide3 {
+      background: url(../img/main-img2.jpg) center (center/cover) no-repeat;
+    }
+  }
+}
