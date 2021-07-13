@@ -6,7 +6,9 @@ html {
 
 // Header
 
-.nav_links li a:hover {
+.nav_links li a:hover,
+.big-burger li a.active,
+.burger li a.active {
   color: $primary;
 }
 
@@ -93,5 +95,14 @@ html {
     .slide4 {
       background: url(../img/main-img3.jpg) center (center/cover) no-repeat;
     }
+  }
+}
+
+// Dasturlar
+
+.hero-dasturlar {
+  background: url(../img/hero-dasturlar.jpg) center (center/cover) no-repeat;
+  .bg {
+    background: rgba(0, 0, 0, 0.3);
   }
 }

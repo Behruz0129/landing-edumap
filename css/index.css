@@ -2,7 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-.nav_links li a:hover {
+.nav_links li a:hover,
+.big-burger li a.active,
+.burger li a.active {
   color: #218dd6;
 }
 
@@ -120,5 +122,13 @@ html {
 
 .swiper-container .swiper-wrapper .slide4 {
   background: url(../img/main-img3.jpg) center center/cover no-repeat;
+}
+
+.hero-dasturlar {
+  background: url(../img/hero-dasturlar.jpg) center center/cover no-repeat;
+}
+
+.hero-dasturlar .bg {
+  background: rgba(0, 0, 0, 0.3);
 }
 /*# sourceMappingURL=index.css.map */
