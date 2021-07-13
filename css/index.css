@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .nav_links li a:hover {
   color: #218dd6;
 }

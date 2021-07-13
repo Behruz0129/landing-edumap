@@ -1,5 +1,9 @@
 $primary: #218dd6;
 
+html {
+  scroll-behavior: smooth;
+}
+
 // Header
 
 .nav_links li a:hover {
