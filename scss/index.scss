@@ -6,21 +6,6 @@ $primary: #218dd6;
   color: $primary;
 }
 
-.openner {
-  .dropdown_menu {
-    opacity: 0;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: all ease 0.5s;
-  }
-}
-.openner:hover {
-  .dropdown_menu {
-    opacity: 1;
-    transform: scaleY(1);
-  }
-}
-
 .burger {
   cursor: pointer;
 }
@@ -100,6 +85,9 @@ $primary: #218dd6;
     }
     .slide3 {
       background: url(../img/main-img2.jpg) center (center/cover) no-repeat;
+    }
+    .slide4 {
+      background: url(../img/main-img3.jpg) center (center/cover) no-repeat;
     }
   }
 }
