@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Head -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,11 +12,6 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <!-- Swipper CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
     <!-- TailwindCSS -->
     <link
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
@@ -28,7 +22,6 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/index.css" />
   </head>
-  <!-- Body -->
   <body>
     <!-- Header -->
     <header
@@ -59,8 +52,12 @@
         <li class="pr-5 text-lg">
           <a href="about.html">Biz haqimizda</a>
         </li>
-        <li class="pr-5 text-lg"><a href="./dasturlar.html">Dasturlar</a></li>
-        <li class="pr-5 text-lg"><a href="blog.html">Blog</a></li>
+        <li class="pr-5 text-lg">
+          <a href="dasturlar.html">Dasturlar</a>
+        </li>
+        <li class="pr-5 text-lg">
+          <a href="blog.html" class="active">Blog</a>
+        </li>
         <li class="openner text-lg relative">
           <a href="ariza.html">Ariza</a>
         </li>
@@ -87,518 +84,66 @@
           "
         >
           <ul>
-            <li class="py-2"><a href="./about.html">Biz Haqimizda</a></li>
-            <li class="py-2"><a href="./dasturlar.html">Dasturlar</a></li>
-            <li class="py-2"><a href="./blog.html">Blog</a></li>
+            <li class="py-2"><a href="about.html">Biz Haqimizda</a></li>
             <li class="py-2">
-              <a href="./ariza.html">Ariza</a>
+              <a href="./dasturlar.html">Dasturlar</a>
+            </li>
+            <li class="py-2"><a href="blog.html" class="active">Blog</a></li>
+            <li class="py-2">
+              <a href="ariza.html">Ariza</a>
             </li>
           </ul>
         </div>
       </div>
     </header>
-    <!-- Main -->
-    <div class="swiper-container mySwiper mt-16">
-      <!-- Content -->
-      <div class="swiper-wrapper">
-        <!-- Slider 1 -->
-        <div class="swiper-slide slide1 relative">
-          <video
-            id="vid"
-            class="absolute top-0 left-0 w-full h-full object-cover"
-            loop
-            muted
-            autoplay
-          >
-            <source id="mp4" src="./videos/main-video1.mp4" type="video/mp4" />
-          </video>
-          <div class="bg absolute top-0 left-0 h-full w-full"></div>
-          <div class="content px-5 sm:px-10 md:px-20">
-            <h1
-              class="
-                text-center text-3xl
-                sm:text-4xl
-                lg:text-6xl
-                text-white
-                font-bold
-                leading-tight
-                mx-2
-              "
-            >
-              Chet Elda O'qish <br />
-              Edumap Bilan OSON!
-            </h1>
-            <p
-              class="
-                text-center text-lg
-                sm:text-sm
-                text-white
-                leading-tight
-                w-11/12
-                sm:w-8/12
-                mx-2
-                mt-5
-              "
-            >
-              2000 dan ortiq o'quv dasturlarni dunyo bo'yicha sizga taklif
-              etamiz! Siz uchun bakalavriat, magistratura, ilmiy daraja, diplom
-              va sertifikat kurslari, tayyorlov va til kurslari, ta'til va sport
-              oromgohlar! Shoshiling!
-            </p>
-            <a href="#"
-              ><button
-                class="
-                  px-6
-                  lg:px-8
-                  py-4
-                  lg:py-6
-                  text-sm
-                  lg:text-xl
-                  text-white
-                  bg-gradient-to-r
-                  from-blue-800
-                  to-blue-400
-                  rounded-2xl
-                  mt-10
-                  md:mt-20
-                  font-bold
-                  uppercase
-                  animate-bounce
-                "
-              >
-                O'qishni Istayman!
-              </button></a
-            >
-          </div>
-        </div>
-        <!-- Slider 2 -->
-        <div class="swiper-slide slide2">
-          <div class="content px-5 sm:px-10 md:px-20">
-            <h1
-              class="
-                text-center text-3xl
-                sm:text-4xl
-                lg:text-6xl
-                text-white
-                font-bold
-                leading-tight
-                mx-2
-              "
-            >
-              Malayziyada O'qishga <br />
-              100 % gacha Chegirmalar
-            </h1>
-            <p
-              class="
-                text-center text-lg
-                sm:text-sm
-                text-white
-                leading-tight
-                w-11/12
-                sm:w-8/12
-                mx-2
-                mt-5
-              "
-            >
-              IETLS Sertifikatisiz hujjat topshirish, O'qishni Amerika, Kanada
-              yoki Avstraliyaga ko'chirish, 2ta Diplomga ega bo'lish
-            </p>
-            <a href="#">
-              <button
-                class="
-                  px-6
-                  lg:px-8
-                  py-4
-                  lg:py-6
-                  text-sm
-                  lg:text-xl
-                  text-white
-                  bg-gradient-to-r
-                  from-red-800
-                  to-red-400
-                  rounded-2xl
-                  mt-10
-                  md:mt-20
-                  font-bold
-                  uppercase
-                  animate-bounce
-                "
-              >
-                Universitetni tanlang
-              </button>
-            </a>
-          </div>
-        </div>
-        <!-- Slider 3 -->
-        <div class="swiper-slide slide3">
-          <div class="content px-5 sm:px-10 md:px-20">
-            <h1
-              class="
-                text-center text-3xl
-                sm:text-4xl
-                lg:text-5xl
-                text-white
-                font-bold
-                leading-tight
-                mx-2
-              "
-            >
-              Koreya Universitetlariga Bahorgi Semestrga <br />
-              Qabul Ochildi!
-            </h1>
-            <p
-              class="
-                text-center text-lg
-                sm:text-sm
-                text-white
-                leading-tight
-                w-11/12
-                sm:w-8/12
-                mx-2
-                mt-5
-              "
-            >
-              Koreyaning eng nufuzli milliy va xususiy o'quv oliygohlariga
-              o'qishga muyassar bo'ling! Scholarshiplar, grantlar, chegirmalar
-              olish imkoniyatini qo'ldan boy bermang!
-            </p>
-            <a href="#">
-              <button
-                class="
-                  px-6
-                  lg:px-8
-                  py-4
-                  lg:py-6
-                  text-sm
-                  lg:text-xl
-                  text-white
-                  bg-gradient-to-r
-                  from-yellow-700
-                  to-yellow-400
-                  rounded-2xl
-                  mt-10
-                  md:mt-20
-                  font-bold
-                  uppercase
-                  animate-bounce
-                "
-              >
-                Koreyada o'qishni hohlayman
-              </button>
-            </a>
-          </div>
-        </div>
-        <!-- Slider 4 -->
-        <div class="swiper-slide slide4">
-          <div class="content px-5 sm:px-10 md:px-20">
-            <h1
-              class="
-                text-center text-3xl
-                sm:text-4xl
-                lg:text-5xl
-                text-white
-                font-bold
-                leading-tight
-                mx-2
-              "
-            >
-              Xitoyda BEPUL O'qishga <br />
-              Taklif Etamiz
-            </h1>
-            <p
-              class="
-                text-center text-lg
-                sm:text-sm
-                text-white
-                leading-tight
-                w-11/12
-                sm:w-8/12
-                mx-2
-                mt-5
-              "
-            >
-              100% Xitoyda BEPUL Oliy Ta'lim + BEPUL Yotoqxona + Stipendiya $500
-              gacha oyiga! Shoshiling!
-            </p>
-            <a href="#">
-              <button
-                class="
-                  px-6
-                  lg:px-8
-                  py-4
-                  lg:py-6
-                  text-sm
-                  lg:text-xl
-                  text-white
-                  bg-gradient-to-r
-                  from-green-700
-                  to-green-400
-                  rounded-2xl
-                  mt-10
-                  md:mt-20
-                  font-bold
-                  uppercase
-                  animate-bounce
-                "
-              >
-                Universitetni Tanlash va Ariza Yuborish
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
+    <!-- Hero -->
+    <section class="hero-blog h-64 lg:h-80 mt-16">
       <div
         class="
-          swiper-button-next
-          bg-white
-          hidden
-          sm:flex
-          p-6
-          sm:p-8
-          rounded-2xl
-          sm-ic
-          right-10
-        "
-      ></div>
-      <div
-        class="
-          swiper-button-prev
-          bg-white
-          hidden
-          sm:flex
-          p-6
-          sm:p-8
-          rounded-2xl
-          left-10
-          sm-ic
-        "
-      ></div>
-    </div>
-    <!-- Universitetlar -->
-    <section
-      class="
-        uni
-        px-5
-        sm:px-10
-        md:px-20
-        pt-10
-        pb-5
-        flex flex-col
-        justify-center
-        items-center
-      "
-    >
-      <h1 class="text-center text-blue-400 text-2xl sm:text-4xl font-bold py-2">
-        ENG MASHHUR UNIVERSITETLAR
-      </h1>
-      <h3 class="text-center text-gray-300 text-xl py-1">
-        Bizning o'quvchilarimiz tanlagan xorijdagi mashhur o'quv dasturlar
-      </h3>
-      <div
-        class="
-          grid grid-cols-1
-          sm:grid-cols-2
-          lg:grid-cols-4
-          gap-5
-          pt-10
-          pb-5
-          auto-rows-max
+          bg
+          h-full
+          w-full
+          flex flex-col
+          justify-center
+          items-center
+          px-5
+          sm:px-10
+          md:px-20
+          py-2
         "
       >
-        <div
+        <h1
           class="
-            card
-            transition-all
-            duration-75
-            ease-in-out
-            shadow-md
-            hover:shadow-2xl
+            text-2xl
+            lg:text-4xl
+            text-center text-white
+            font-semibold
+            sm:font-bold
           "
         >
-          <img
-            src="./img/uni-img1.jpg"
-            alt="university"
-            class="h-40 w-full object-cover"
-          />
-          <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Cambridge,United States
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                Massachusetts Institute of Technology (MIT)
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
-          </div>
-        </div>
+          BLOG | GLOBAL DISTANCE EDUCATION
+        </h1>
         <div
           class="
-            card
-            transition-all
-            duration-75
-            ease-in-out
-            shadow-md
-            hover:shadow-2xl
+            route
+            text-sm
+            sm:text-lg
+            lg:text-xl
+            text-center text-white
+            font-light
+            sm:font-normal
+            flex
+            items-center
+            justify-center
+            mt-10
+            text-center
           "
         >
-          <img
-            src="./img/uni-img2.jpg"
-            alt="university"
-            class="h-40 w-full object-cover"
-          />
-          <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Stanford,United States
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                Stanford University
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
-          </div>
-        </div>
-        <div
-          class="
-            card
-            transition-all
-            duration-75
-            ease-in-out
-            shadow-md
-            hover:shadow-2xl
-          "
-        >
-          <img
-            src="./img/uni-img3.jpg"
-            alt="university"
-            class="h-40 w-full object-cover"
-          />
-          <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Pittsburgh,United States
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                Carnegie Mellon University
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
-          </div>
-        </div>
-        <div
-          class="
-            card
-            transition-all
-            duration-75
-            ease-in-out
-            shadow-md
-            hover:shadow-2xl
-          "
-        >
-          <img
-            src="./img/uni-img4.jpg"
-            alt="university"
-            class="h-40 w-full object-cover"
-          />
-          <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Berkeley,United States
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                University of California, Berkeley (UCB)
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
-          </div>
+          <a href="./index.html" class="hover:text-blue-400">BOSH SAHIFA</a
+          ><i class="mx-2 sm:mx-4 lg:mx-6 fas fa-chevron-right"></i>
+          <p>BLOG</p>
         </div>
       </div>
-      <a href="#">
-        <button
-          class="
-            px-5
-            py-3
-            text-sm
-            lg:text-lg
-            text-white
-            transition-all
-            duration-500
-            ease-in-out
-            bg-blue-400
-            hover:bg-blue-500
-            rounded-2xl
-            mt-10
-            font-bold
-            shadow-md
-          "
-        >
-          Barcha Universitetlar <i class="pl-5 fal fa-long-arrow-right"></i>
-        </button>
-      </a>
-    </section>
-    <!-- More -->
-    <section
-      class="
-        more
-        px-5
-        sm:px-10
-        md:px-20
-        pt-10
-        pb-5
-        flex flex-col
-        justify-center
-        items-center
-      "
-    >
-      <h1 class="text-center text-blue-400 text-2xl sm:text-4xl font-bold py-2">
-        O'QISH UCHUN TO'G'RIDAN-TO'G'RI RO'YXATDAN O'TISH
-      </h1>
-      <h3 class="text-center text-gray-300 text-xl py-1">
-        Bizning o'quvchilarimiz tanlagan xorijdagi mashhur o'quv dasturlar
-      </h3>
-      <iframe
-        class="my-10 w-full h-80 sm:w-4/5 lg:w-2/5 shadow-lg"
-        src="https://www.youtube.com/embed/5UNhoaKUI54"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <a href="#">
-        <button
-          class="
-            px-5
-            py-3
-            text-sm
-            lg:text-lg
-            text-white
-            transition-all
-            duration-500
-            ease-in-out
-            bg-blue-400
-            hover:bg-blue-500
-            rounded-2xl
-            mt-10
-            font-bold
-            shadow-md
-          "
-        >
-          To'g'ridan-to'g'ri o'tish <i class="pl-5 fal fa-long-arrow-right"></i>
-        </button>
-      </a>
     </section>
     <!-- Bloglar -->
     <section
@@ -764,29 +309,139 @@
             ></a>
           </div>
         </div>
-      </div>
-      <a href="#">
-        <button
+        <div
           class="
-            px-5
-            py-3
-            text-sm
-            lg:text-lg
-            text-white
+            card
             transition-all
-            duration-500
+            duration-75
             ease-in-out
-            bg-blue-400
-            hover:bg-blue-500
-            rounded-2xl
-            my-10
-            font-bold
             shadow-md
+            hover:shadow-2xl
           "
         >
-          Ko'proq Bloglar <i class="pl-2 fal fa-long-arrow-right"></i>
-        </button>
-      </a>
+          <img
+            src="./img/blog-img5.jpg"
+            alt="university"
+            class="h-40 w-full object-cover"
+          />
+          <div class="content p-4">
+            <p class="text-sm text-gray-300 mb-2">
+              <i class="fas fa-calendar-day"></i> 2021-07-02
+            </p>
+            <a href="#"
+              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
+                O'z-O'zini Rivojlantirish Uchun Kitoblar
+              </h2></a
+            >
+            <div class="descr text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              doloribus dolorem sequi architecto totam nulla!
+            </div>
+            <a href="#" class="inline-block text-blue-400 py-4 font-semibold"
+              >Ko'proq Ma'lumot <i class="fal fa-long-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="
+            card
+            transition-all
+            duration-75
+            ease-in-out
+            shadow-md
+            hover:shadow-2xl
+          "
+        >
+          <img
+            src="./img/blog-img6.jpg"
+            alt="university"
+            class="h-40 w-full object-cover"
+          />
+          <div class="content p-4">
+            <p class="text-sm text-gray-300 mb-2">
+              <i class="fas fa-calendar-day"></i> 2021-06-28
+            </p>
+            <a href="#"
+              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
+                Valantyorlar Uchun Universitet Qanday Imtiyozlar Beradi
+              </h2></a
+            >
+            <div class="descr text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              doloribus dolorem sequi architecto totam nulla!
+            </div>
+            <a href="#" class="inline-block text-blue-400 py-4 font-semibold"
+              >Ko'proq Ma'lumot <i class="fal fa-long-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="
+            card
+            transition-all
+            duration-75
+            ease-in-out
+            shadow-md
+            hover:shadow-2xl
+          "
+        >
+          <img
+            src="./img/blog-img7.jpg"
+            alt="university"
+            class="h-40 w-full object-cover"
+          />
+          <div class="content p-4">
+            <p class="text-sm text-gray-300 mb-2">
+              <i class="fas fa-calendar-day"></i> 2021-06-12
+            </p>
+            <a href="#"
+              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
+                Barchasini YouTubedan O'rgansa Bo'ladi
+              </h2></a
+            >
+            <div class="descr text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              doloribus dolorem sequi architecto totam nulla!
+            </div>
+            <a href="#" class="inline-block text-blue-400 py-4 font-semibold"
+              >Ko'proq Ma'lumot <i class="fal fa-long-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="
+            card
+            transition-all
+            duration-75
+            ease-in-out
+            shadow-md
+            hover:shadow-2xl
+          "
+        >
+          <img
+            src="./img/blog-img8.jpg"
+            alt="university"
+            class="h-40 w-full object-cover"
+          />
+          <div class="content p-4">
+            <p class="text-sm text-gray-300 mb-2">
+              <i class="fas fa-calendar-day"></i> 2021-05-30
+            </p>
+            <a href="#"
+              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
+                SAT Nima? Undan 1500+ Olish Sirlari
+              </h2></a
+            >
+            <div class="descr text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              doloribus dolorem sequi architecto totam nulla!
+            </div>
+            <a href="#" class="inline-block text-blue-400 py-4 font-semibold"
+              >Ko'proq Ma'lumot <i class="fal fa-long-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Footer -->
     <footer class="bg-blue-500">
@@ -899,25 +554,6 @@
         </p>
       </div>
     </footer>
-
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper('.mySwiper', {
-        speed: 1000,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      });
-    </script>
     <script>
       const burger = document.querySelector('.burger');
       const dropDownNav = document.querySelector('.dropdown_nav');

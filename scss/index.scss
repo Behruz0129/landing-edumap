@@ -8,7 +8,7 @@ html {
 
 .nav_links li a:hover,
 .big-burger li a.active,
-.burger li a.active {
+.nav_links li a.active {
   color: $primary;
 }
 
@@ -102,6 +102,12 @@ html {
 
 .hero-dasturlar {
   background: url(../img/hero-dasturlar.jpg) center (center/cover) no-repeat;
+  .bg {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+.hero-blog {
+  background: url(../img/hero-blog.jpg) center (center/cover) no-repeat;
   .bg {
     background: rgba(0, 0, 0, 0.3);
   }
