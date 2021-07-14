@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chet Elda O`qish - Universitetlar, Ma`lumotlar, Narxlar</title>
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <!-- TailwindCSS -->
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="./css/index.css" />
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Chet Elda O`qish - Universitetlar, Ma`lumotlar, Narxlar</title>
+      <!-- Font Awesome -->
+      <link
+        rel="stylesheet"
+        href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous"
+      />
+      <!-- TailwindCSS -->
+      <link
+        href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+        rel="stylesheet"
+      />
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+      <!-- Main CSS -->
+      <link rel="stylesheet" href="./css/index.css" />
+    </head>
   </head>
   <body>
     <!-- Header -->
@@ -50,10 +52,10 @@
       <!-- Nav Links -->
       <ul class="nav_links hidden md:flex justify-between items-center">
         <li class="pr-5 text-lg">
-          <a href="about.html">Biz haqimizda</a>
+          <a href="about.html" class="active">Biz haqimizda</a>
         </li>
         <li class="pr-5 text-lg">
-          <a href="dasturlar.html" class="active">Dasturlar</a>
+          <a href="dasturlar.html">Dasturlar</a>
         </li>
         <li class="pr-5 text-lg"><a href="bloglar.html">Blog</a></li>
         <li class="openner text-lg relative">
@@ -82,9 +84,11 @@
           "
         >
           <ul>
-            <li class="py-2"><a href="about.html">Biz Haqimizda</a></li>
             <li class="py-2">
-              <a href="./dasturlar.html" class="active">Dasturlar</a>
+              <a href="about.html" class="active">Biz Haqimizda</a>
+            </li>
+            <li class="py-2">
+              <a href="./dasturlar.html">Dasturlar</a>
             </li>
             <li class="py-2"><a href="bloglar.html">Blog</a></li>
             <li class="py-2">
@@ -95,7 +99,7 @@
       </div>
     </header>
     <!-- Hero -->
-    <section class="hero-dasturlar h-64 lg:h-80 mt-16">
+    <section class="hero-about h-64 lg:h-80 mt-16">
       <div
         class="
           bg
@@ -119,7 +123,7 @@
             sm:font-bold
           "
         >
-          DASTURLAR | GLOBAL DISTANCE EDUCATION
+          BIZ HAQIMIZDA | GLOBAL DISTANCE EDUCATION
         </h1>
         <div
           class="
@@ -139,11 +143,90 @@
         >
           <a href="./index.html" class="hover:text-blue-400">BOSH SAHIFA</a
           ><i class="mx-2 sm:mx-4 lg:mx-6 fas fa-chevron-right"></i>
-          <p>DASTURLAR</p>
+          <p>BIZ HAQIMIZDA</p>
         </div>
       </div>
     </section>
-    <!-- Universitetlar -->
+    <!-- Require -->
+    <section
+      class="
+        require
+        grid grid-cols-1
+        lg:grid-cols-2
+        py-10
+        px-5
+        sm:px-10
+        md:px-20
+      "
+    >
+      <div class="imgCont flex justify-center items-center">
+        <img
+          src="./img/side-student.png"
+          alt="side students"
+          class="mr-20 lg:w-9/12 xl:w-8/12 hidden lg:inline"
+        />
+      </div>
+      <div class="content flex flex-col justify-center">
+        <h1
+          class="
+            text-2xl
+            lg:text-3xl
+            font-semibold
+            sm:font-bold
+            text-blue-500
+            mb-4
+          "
+        >
+          Siz Uchun Eng Yaxshi
+          <span class="text-red-500">Ta'lim Xizmatlari</span> Ko'rsatish
+        </h1>
+        <p class="mb-4">
+          World.uz -2006 yildan beri talabalarni chet elga o'qishga yuborish
+          bilan shugillanib kelayotgan O'zbekistondagi eng yetakchi agentlik.
+        </p>
+        <p>
+          Hozirgi kunda bizda dunyo bo'ylab 2000 dan ortiq ta'lim dasturlari
+          mavjud - bu maktabga tayyorgarlik, o'rta oliy ta'lim, Angliyaning,
+          AQShning, Germaniyaning, Frantsiyaning, Polshaning, Latviyaning,
+          Chexiyaning va boshqa mamlakatlarning eng yaxshi universitetlarida
+          o'qishga kirish va oliy ma'lumot olish uchun tayyorgarlik. Evropa
+          mamlakatlari, Janubiy Koreya, Yaponiya va boshqalar, magistratura,
+          diplom va sertifikatlash kurslari, MBA, ilmiy daraja, chet elda til
+          kurslari - ingliz, ispan, frantsuz, italyan, xitoy, koreys va
+          boshqalar. IELTS, TOEFL, CEFR imtihonlarga tayorgalik, ta'til
+          dasturlari yilning istalgan vaqtida, sport mashg'ulotlari va
+          boshqalar. Bizning ofisimizga tashrif buyuring, bizning professional
+          maslahatchilarimiz sizga chet elda o'qish to'g'risida eng kerakli
+          ma'lumotlarni taqdim etadilar. Siz qanday qilib to'g'ri o'quv yurtini
+          tanlashni, qanday qilib elchixonada intervyu olishni, o'qishga kirish
+          ehtimolingizni qanday oshirishni va boshqa ko'plab foydali
+          ma'lumotlarni o'rganasiz! Shoshiling! Joylar soni cheklangan!
+        </p>
+        <a href="#">
+          <button
+            class="
+              px-5
+              py-3
+              text-sm
+              lg:text-lg
+              text-white
+              transition-all
+              duration-500
+              ease-in-out
+              bg-blue-400
+              hover:bg-blue-500
+              rounded-2xl
+              my-10
+              font-bold
+              shadow-md
+            "
+          >
+            O'qishni Istayman <i class="pl-2 fal fa-long-arrow-right"></i>
+          </button>
+        </a>
+      </div>
+    </section>
+    <!-- Workers -->
     <section
       class="
         uni
@@ -157,20 +240,9 @@
         items-center
       "
     >
-      <h1
-        class="
-          text-center text-blue-400 text-xl
-          sm:text-2xl
-          lg:text-4xl
-          font-bold
-          py-2
-        "
-      >
-        ENG MASHHUR UNIVERSITETLAR
+      <h1 class="text-center text-blue-400 text-2xl sm:text-4xl font-bold py-2">
+        BIZNING HODIMLAR
       </h1>
-      <h3 class="text-center text-gray-300 text-lg sm:text-xl lg:text-2xl py-1">
-        Bizning o'quvchilarimiz tanlagan xorijdagi mashhur o'quv dasturlar
-      </h3>
       <div
         class="
           grid grid-cols-1
@@ -193,23 +265,13 @@
           "
         >
           <img
-            src="./img/uni-img1.jpg"
+            src="./img/worker1.jpg"
             alt="university"
-            class="h-40 w-full object-cover"
+            class="h-100 lg:h-80 w-full object-cover object-top"
           />
           <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Cambridge,United States
-            </p>
-            <a href="details.html"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                Massachusetts Institute of Technology (MIT)
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
+            <h2 class="text-xl font-bold text-blue-400 mb-2">Umarov Azam</h2>
+            <p>Osiyo koordinatori</p>
           </div>
         </div>
         <div
@@ -223,23 +285,13 @@
           "
         >
           <img
-            src="./img/uni-img2.jpg"
+            src="./img/worker2.png"
             alt="university"
-            class="h-40 w-full object-cover"
+            class="h-100 lg:h-80 w-full object-cover object-top"
           />
           <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Stanford,United States
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                Stanford University
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
+            <h2 class="text-xl font-bold text-blue-400 mb-2">Normatov Abbos</h2>
+            <p>Normatov Abbos</p>
           </div>
         </div>
         <div
@@ -253,23 +305,13 @@
           "
         >
           <img
-            src="./img/uni-img3.jpg"
+            src="./img/worker3.jpg"
             alt="university"
-            class="h-40 w-full object-cover"
+            class="h-100 lg:h-80 w-full object-cover object-top"
           />
           <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Pittsburgh,United States
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                Carnegie Mellon University
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
+            <h2 class="text-xl font-bold text-blue-400 mb-2">Udaev Bobur</h2>
+            <p>Lager koordinator assistenti</p>
           </div>
         </div>
         <div
@@ -283,143 +325,13 @@
           "
         >
           <img
-            src="./img/uni-img4.jpg"
+            src="./img/worker4.jpg"
             alt="university"
-            class="h-40 w-full object-cover"
+            class="h-100 lg:h-80 w-full object-cover object-top"
           />
           <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Berkeley,United States
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                University of California, Berkeley (UCB)
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
-          </div>
-        </div>
-        <div
-          class="
-            card
-            transition-all
-            duration-75
-            ease-in-out
-            shadow-md
-            hover:shadow-2xl
-          "
-        >
-          <img
-            src="./img/uni-img5.jpg"
-            alt="university"
-            class="h-40 w-full object-cover"
-          />
-          <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Chimkent, Qozog'iston
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                Muxtor Avezov
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
-          </div>
-        </div>
-        <div
-          class="
-            card
-            transition-all
-            duration-75
-            ease-in-out
-            shadow-md
-            hover:shadow-2xl
-          "
-        >
-          <img
-            src="./img/uni-img6.jpg"
-            alt="university"
-            class="h-40 w-full object-cover"
-          />
-          <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Moskva, Russia
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                Moskva Xalqaro Akademiyasi
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
-          </div>
-        </div>
-        <div
-          class="
-            card
-            transition-all
-            duration-75
-            ease-in-out
-            shadow-md
-            hover:shadow-2xl
-          "
-        >
-          <img
-            src="./img/uni-img7.jpg"
-            alt="university"
-            class="h-40 w-full object-cover"
-          />
-          <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Moskva, Russia
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                Moskva Moliya Instituti
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
-          </div>
-        </div>
-        <div
-          class="
-            card
-            transition-all
-            duration-75
-            ease-in-out
-            shadow-md
-            hover:shadow-2xl
-          "
-        >
-          <img
-            src="./img/uni-img8.jpg"
-            alt="university"
-            class="h-40 w-full object-cover"
-          />
-          <div class="content p-4">
-            <p class="text-sm text-gray-300 mb-2">
-              <i class="fas fa-map-marker-alt"></i> Astana, Qozog'iston
-            </p>
-            <a href="#"
-              ><h2 class="text-xl font-bold text-blue-400 mb-2 hover:underline">
-                Qozog'iston Pedogokika Universiteti
-              </h2></a
-            >
-            <div class="descr text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              doloribus dolorem sequi architecto totam nulla!
-            </div>
+            <h2 class="text-xl font-bold text-blue-400 mb-2">Hasan Husanov</h2>
+            <p>Lager koordinator assistenti</p>
           </div>
         </div>
       </div>
@@ -535,6 +447,7 @@
         </p>
       </div>
     </footer>
+
     <script>
       const burger = document.querySelector('.burger');
       const dropDownNav = document.querySelector('.dropdown_nav');

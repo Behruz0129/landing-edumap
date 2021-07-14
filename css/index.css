@@ -139,4 +139,193 @@ html {
 .hero-blog .bg {
   background: rgba(0, 0, 0, 0.3);
 }
+
+.hero-about {
+  background: url(../img/hero-about.jpg) center center/cover no-repeat;
+}
+
+.hero-about .bg {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-uni {
+  background: url(../img/uni-img1.jpg) center center/cover no-repeat;
+}
+
+.hero-uni .bg {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-blog-details {
+  background: url(../img/blog-img1.png) center center/cover no-repeat;
+}
+
+.hero-blog-details .bg {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.details .box1 .card {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.details .box1 .card img {
+  width: 100%;
+}
+
+.details .box1 .card .descr {
+  padding: 1rem;
+}
+
+.details .box1 .card .descr div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.details .box1 .card .descr div span {
+  margin: 0.5rem 0;
+  color: #ccc;
+}
+
+.details .box1 .card .descr div h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #60a5fa;
+  margin: 0.5rem 0;
+}
+
+.details .box1 .card .descr div h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #60a5fa;
+  margin: 0.5rem 0;
+}
+
+.details .box1 .card .descr div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.details .box1 .card .descr div div a {
+  margin-right: 0.5rem;
+}
+
+.details .box1 .card .descr div div a i {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #3097db;
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.details .box1 .card .descr div div a i:hover {
+  background: #3b82f6;
+}
+
+.details .box1 .context p {
+  margin: 2rem 0;
+}
+
+.details .box1 .context hr {
+  margin: 2rem 0;
+}
+
+.details .box1 .context h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.details .box1 .context li {
+  list-style: none;
+  margin: 2rem 0;
+}
+
+.details .box1 .context img {
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.details .box1 .context li::before {
+  content: '';
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-image: url(../img/check.svg);
+}
+
+.details .box2 h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.details .box2 div .card {
+  margin: 2rem 0;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.details .box2 div .card img {
+  height: 10rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.details .box2 div .card div {
+  padding: 1rem;
+}
+
+.details .box2 div .card div h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #60a5fa;
+}
+
+.details .box2 div .card div p {
+  margin: 1rem 0;
+}
+
+@media (min-width: 1024px) {
+  .details .box2 {
+    margin-left: 2rem;
+  }
+  .details .box2 h1 {
+    margin-top: 0;
+  }
+  .details .box2 div .card {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .details .box2 div .card img {
+    height: 100%;
+    min-width: 100%;
+  }
+  .details .box2 div .card div {
+    padding: 0.5rem;
+  }
+  .details .box2 div .card div h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  .details .box2 div .card div p {
+    margin: 0.5rem 0;
+    font-size: 0.7rem;
+  }
+}
 /*# sourceMappingURL=index.css.map */
