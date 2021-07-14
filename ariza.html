@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Head -->
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Chet Elda O`qish - Universitetlar, Ma`lumotlar, Narxlar</title>
+      <!-- Font Awesome -->
+      <link
+        rel="stylesheet"
+        href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous"
+      />
+      <!-- TailwindCSS -->
+      <link
+        href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+        rel="stylesheet"
+      />
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+      <!-- Main CSS -->
+      <link rel="stylesheet" href="./css/index.css" />
+    </head>
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="
+        flex
+        justify-between
+        items-center
+        py-5
+        px-5
+        sm:px-10
+        md:px-20
+        fixed
+        top-0
+        left-0
+        w-full
+        h-16
+        bg-white
+        z-50
+        shadow-md
+      "
+    >
+      <!-- Logo -->
+      <a href="./index.html" class="logo">
+        <img src="./img/logo.png" alt="logo" class="h-8 sm:h-12" />
+      </a>
+      <!-- Nav Links -->
+      <ul class="nav_links hidden md:flex justify-between items-center">
+        <li class="pr-5 text-lg">
+          <a href="about.html">Biz haqimizda</a>
+        </li>
+        <li class="pr-5 text-lg"><a href="./dasturlar.html">Dasturlar</a></li>
+        <li class="pr-5 text-lg"><a href="bloglar.html">Blog</a></li>
+        <li class="openner text-lg relative">
+          <a href="ariza.html" class="active">Ariza</a>
+        </li>
+      </ul>
+      <!-- Burger -->
+      <div class="big-burger relative w-8 md:hidden">
+        <div class="burger flex flex-col justify-center items-center">
+          <div class="line mb-2 h-0.5 w-full bg-blue-500"></div>
+          <div class="line mb-2 h-0.5 w-full bg-blue-500"></div>
+          <div class="line h-0.5 w-full bg-blue-500"></div>
+        </div>
+        <!-- Dropdown Nav -->
+        <div
+          class="
+            dropdown_nav
+            block
+            absolute
+            right-0
+            top-12
+            bg-white
+            shadow-md
+            p-5
+            rounded-md
+          "
+        >
+          <ul>
+            <li class="py-2"><a href="./about.html">Biz Haqimizda</a></li>
+            <li class="py-2"><a href="./dasturlar.html">Dasturlar</a></li>
+            <li class="py-2"><a href="./bloglar.html">Blog</a></li>
+            <li class="py-2">
+              <a href="./ariza.html" class="active">Ariza</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Form -->
+    <section class="form py-20 px-5 sm:px-10 md:px-20 mt-16">
+      <h1 class="text-center text-blue-400 text-2xl sm:text-4xl font-bold py-2">
+        Ariza Qoldiring
+      </h1>
+      <h3 class="text-center text-gray-300 text-md sm:text-xl py-1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ab.
+      </h3>
+      <form class="flex flex-col justify-center items-center">
+        <div class="py-5 w-full">
+          <label for="name">Familiya, Ism va Sharif(Ф.И.О)</label>
+          <input
+            id="name"
+            title="name"
+            class="
+              w-full
+              px-4
+              text-md
+              sm:text-xl
+              py-3
+              mt-3
+              bg-gray-50
+              focus:outline-none focus:ring-blue-500 focus:ring-2
+            "
+            type="text"
+          />
+        </div>
+        <div class="py-5 w-full">
+          <label for="phone">Telefon Raqam</label>
+          <input
+            id="phone"
+            title="phone"
+            class="
+              w-full
+              px-4
+              text-md
+              sm:text-xl
+              py-3
+              mt-3
+              bg-gray-50
+              focus:outline-none focus:ring-blue-500 focus:ring-2
+            "
+            type="phone"
+            value="+998"
+          />
+        </div>
+        <a href="#">
+          <button
+            class="
+              px-5
+              py-5
+              text-sm
+              lg:text-lg
+              text-white
+              transition-all
+              duration-500
+              ease-in-out
+              bg-blue-400
+              hover:bg-blue-500
+              rounded-2xl
+              font-bold
+              shadow-md
+            "
+          >
+            To'g'ridan-to'g'ri o'tish
+            <i class="pl-5 fal fa-long-arrow-right"></i>
+          </button>
+        </a>
+      </form>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-blue-500">
+      <a href="#" class="text-white text-lg"
+        ><div
+          class="
+            bg-blue-600
+            px-5
+            sm:px-10
+            md:px-20
+            py-2
+            flex
+            justify-center
+            items-center
+            transition-all
+            duration-500
+            ease-in
+            hover:bg-blue-700
+          "
+        >
+          <i class="fas fa-chevron-up"></i></div
+      ></a>
+      <div
+        class="
+          box-1
+          grid grid-cols-1
+          sm:grid-cols-2
+          md:grid-cols-3
+          px-5
+          sm:px-10
+          md:px-20
+          pt-10
+          pb-5
+        "
+      >
+        <div class="mb-8 pr-10">
+          <img
+            src="./img/logo.png"
+            alt="logo"
+            class="h-12 filter invert brightness-0"
+          />
+          <p class="mt-6 text-gray-200 text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos
+            debitis repellendus, officia totam doloribus?
+          </p>
+          <a href="#" class="inline-block mt-2 text-white font-semibold"
+            >Ko'proq Ma'lumot <i class="fal fa-long-arrow-right"></i
+          ></a>
+        </div>
+        <div class="mb-8 pr-10">
+          <h2 class="text-2xl text-white font-bold">Biz bilan bog'laning</h2>
+          <ul>
+            <li class="mt-6 text-gray-200 text-sm">
+              <a href="tel:+998 94 600 00 30"
+                ><i class="fas fa-phone-alt"></i> +998 94 600 00 30</a
+              >
+            </li>
+            <li class="mt-2 text-gray-200 text-sm">
+              <a href="mailto:info@world.uz"></a
+              ><i class="fas fa-envelope"></i> info@edumap.uz
+            </li>
+            <li class="mt-2 text-gray-200 text-sm">
+              <a href="#"><i class="fas fa-globe"></i> www.edumap.uz</a>
+            </li>
+            <li class="mt-2 text-gray-200 text-sm">
+              <a href="#"
+                ><i class="fas fa-map-marker-alt"></i> 100000, O'zbekiston,
+                Toshkent shahri, Abay ko'chasi, 13A</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="pr-10">
+          <h2 class="text-2xl text-white font-bold">Bizga qo'shiling</h2>
+          <ul>
+            <li class="mt-6 text-gray-200 text-sm">
+              <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            </li>
+            <li class="mt-2 text-gray-200 text-sm">
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+            <li class="mt-2 text-gray-200 text-sm">
+              <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+            </li>
+            <li class="mt-2 text-gray-200 text-sm">
+              <a href="#"><i class="fab fa-telegram"></i> Telegram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="
+          box-2
+          flex
+          justify-center
+          items-center
+          py-5
+          px-5
+          sm:px-10
+          md:px-20
+          bg-blue-400
+          text-white
+        "
+      >
+        <p class="text-center text-xs md:text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit at
+          dolorum facilis eligendi laboriosam incidunt sint neque aspernatur
+          inventore, voluptatibus, eaque non aut consequatur voluptas minima
+          officiis sit voluptatum soluta.
+        </p>
+      </div>
+    </footer>
+    <!-- Burger -->
+    <script>
+      const burger = document.querySelector('.burger');
+      const dropDownNav = document.querySelector('.dropdown_nav');
+      burger.addEventListener('click', () => {
+        dropDownNav.classList.toggle('open');
+        burger.classList.toggle('iksli');
+      });
+    </script>
+  </body>
+</html>
