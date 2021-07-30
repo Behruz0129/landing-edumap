@@ -6,6 +6,10 @@ html {
 
 // Header
 
+.logo-text {
+  color: #e4ad38;
+}
+
 .nav_links li a:hover,
 .big-burger li a.active,
 .nav_links li a.active {
@@ -68,8 +72,7 @@ html {
       width: 100vw;
       height: 100vh;
       .bg {
-        background: #18181813;
-        backdrop-filter: blur(2px);
+        background: #18181842;
         z-index: 1;
       }
       .content {
@@ -89,7 +92,7 @@ html {
       background: url(../img/main-1.jpg) center (center/cover) no-repeat;
     }
     .slide2 {
-      background: url(../img/main-2.jpeg) center (center/cover) no-repeat;
+      background: url(../img/main-2.jpg) center (center/cover) no-repeat;
     }
     .slide3 {
       background: url(../img/main-3.jpg) center (center/cover) no-repeat;

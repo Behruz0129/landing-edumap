@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.logo-text {
+  color: #e4ad38;
+}
+
 .nav_links li a:hover,
 .big-burger li a.active,
 .nav_links li a.active {
@@ -84,9 +88,7 @@ html {
 }
 
 .swiper-container .swiper-wrapper .swiper-slide .bg {
-  background: #18181813;
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  background: #18181842;
   z-index: 1;
 }
 
@@ -116,7 +118,7 @@ html {
 }
 
 .swiper-container .swiper-wrapper .slide2 {
-  background: url(../img/main-2.jpeg) center center/cover no-repeat;
+  background: url(../img/main-2.jpg) center center/cover no-repeat;
 }
 
 .swiper-container .swiper-wrapper .slide3 {
