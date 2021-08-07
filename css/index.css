@@ -23,7 +23,7 @@ html {
 
 .iksli .line:nth-child(1) {
   -webkit-transform: translateY(10px) rotate(45deg);
-          transform: translateY(10px) rotate(45deg);
+  transform: translateY(10px) rotate(45deg);
 }
 
 .iksli .line:nth-child(2) {
@@ -32,7 +32,7 @@ html {
 
 .iksli .line:nth-child(3) {
   -webkit-transform: translateY(-10px) rotate(-45deg);
-          transform: translateY(-10px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-45deg);
 }
 
 .big-burger .dropdown_nav {
@@ -42,9 +42,9 @@ html {
 .dropdown_nav {
   opacity: 0;
   -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  transform: scaleY(0);
   -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
@@ -56,7 +56,7 @@ html {
 .dropdown_nav.open {
   opacity: 1;
   -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  transform: scaleY(1);
 }
 
 .swiper-container {
@@ -78,11 +78,11 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100vw;
   height: 100vh;
 }
@@ -98,14 +98,14 @@ html {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   z-index: 2;
 }
 
@@ -171,7 +171,7 @@ html {
 
 .details .box1 .card {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .details .box1 .card img {
@@ -188,8 +188,8 @@ html {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .details .box1 .card .descr div span {
@@ -217,8 +217,8 @@ html {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .details .box1 .card .descr div div a {
@@ -279,14 +279,14 @@ html {
 .details .box2 div .card {
   margin: 2rem 0;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .details .box2 div .card img {
   height: 10rem;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .details .box2 div .card div {
@@ -315,7 +315,7 @@ html {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .details .box2 div .card img {
     height: 100%;
@@ -333,4 +333,5 @@ html {
     font-size: 0.7rem;
   }
 }
+
 /*# sourceMappingURL=index.css.map */
